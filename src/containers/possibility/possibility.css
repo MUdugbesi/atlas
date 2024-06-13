@@ -1,0 +1,125 @@
+.gpt3__posibilities__container {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+
+    width: 65%;
+    margin: 0 auto;
+
+}
+
+.gpt3__posibilities__section-one img {
+    width: 100%;
+    height: 100%;
+}
+
+.gpt3__posibilities__section-two {
+    width: 100%;
+    height: auto;
+}
+
+.gpt3__posibilities__text-one {
+
+    color: #71E5FF;
+    font-family: var(--font-family);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 30px;
+
+    margin-bottom: 1rem;
+    cursor: pointer;
+}
+
+.gpt3__posibilities__section-two h1 {
+    font-family: var(--font-family);
+    font-size: 34px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 45px;
+
+
+}
+
+.gpt3__possibilities___text-two,
+.gpt3__possibilities__text-three {
+
+    font-family: var(--font-family);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+
+    margin-top: 1rem;
+    
+}
+
+.gpt3__possibilities___text-two {
+    color: var(--color-text);
+}
+
+.gpt3__possibilities__text-three {
+    color: var(--color-subtext);
+    cursor: pointer;
+}
+
+@media screen and (max-width:1050px) {
+    .gpt3__posibilities__container {
+        width: 100%;
+        padding: 1rem;
+    }
+
+    .gpt3__posibilities__section-one img {
+        padding-right: 1rem;
+    }
+}
+
+@media screen and (max-width:768px) {
+
+    .gpt3__posibilities__section-one img {
+        width: 90%;
+        padding: 0;
+    }
+
+    .gpt3__posibilities__section-two {
+        width: 100%;
+        padding-right: 1rem;
+    }
+
+    .gpt3__posibilities__text-one,
+    .gpt3__possibilities___text-two,
+    .gpt3__possibilities__text-three {
+        font-size: 12px;
+        line-height: 1.75;
+    }
+
+
+    .gpt3__posibilities__section-two h1 {
+        font-size: 22px;
+        line-height: 1.5;
+    }
+}
+
+@media screen and (max-width:490px) {
+    .gpt3__posibilities__container {
+        flex-direction: column;
+        padding: 2rem;
+    }
+
+    .gpt3__posibilities__section-two h1{
+        text-align: center;
+        line-height: 1.5;
+    }
+
+    .gpt3__posibilities__section-one img {
+        width: 100%;
+
+    }
+
+    .gpt3__posibilities__text-one,
+    .gpt3__possibilities__text-three {
+        text-align: center;
+        margin-top: 1rem;
+    }
+
+}

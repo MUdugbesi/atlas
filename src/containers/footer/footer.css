@@ -1,0 +1,115 @@
+.gpt3__footer__container {
+    width: 90%;
+    height: auto;
+    background: #031B34;
+
+    margin: 0 auto;
+    margin-bottom: 15rem;
+    padding-top: 8rem;
+    padding-bottom: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+}
+
+.gpt3__footer__links {
+    display: flex;
+
+    flex-direction: row;
+}
+
+.gpt3__footer__text {
+    width: 60%;
+    margin: 0 auto;
+    padding-bottom: 4rem;
+
+    text-align: center;
+    font-family: var(--font-family);
+    font-size: 62px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 75px;
+    letter-spacing: -2.48px;
+
+
+}
+
+.gpt3__footer__button {
+    width: 218px;
+    height: 65px;
+
+    border: 1px solid #fff;
+    margin-bottom: 5rem;
+}
+
+.gpt3__footer__button p {
+    color: #fff;
+    background-color: #031B34;
+
+
+    font-family: Gilroy-Medium;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-align: center;
+
+    cursor: pointer;
+    padding: 1rem;
+    padding-top: 1.25rem;
+
+}
+
+.gpt3__footer__links {
+    display: flex;
+
+    width: 60%;
+    justify-content: space-between;
+    align-items: flex-start;
+
+    margin-bottom: 5rem;
+}
+
+.gpt3__link__header p {
+    color: #FFF;
+    font-family: Gilroy-Medium;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.gpt3__link h3 {
+    color: #FFF;
+    font-family: Gilroy-Bold;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding-bottom: 1rem;
+}
+
+.gpt3__link ul {
+    list-style: none;
+}
+
+.gpt3__link ul li {
+    color: #FFF;
+    font-family: var(--font-family2);
+    font-size: 12px;
+    font-style: normal;
+    /* font-weight: 400; */
+    line-height: 30px;
+
+
+}
+
+.gpt3__footer p {
+    color: #FFF;
+    font-family: var(--font-family2);
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}

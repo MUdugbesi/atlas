@@ -1,0 +1,32 @@
+.signin {
+    display: flex;
+    margin-top: 20px;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    gap: 300px;
+
+}
+
+.signin p {
+    color: red;
+}
+
+.signin button {
+    width: 80px;
+    height: 40px;
+    background: transparent;
+    color: black;
+    background-color: white;
+    box-shadow: 5px 5px 5px white;
+    border-radius: 10px;
+    border: 2px solid black;
+
+    font-size: 12px;
+}
+
+.signin button:hover {
+    cursor: pointer;
+    opacity: 0.6;
+}
